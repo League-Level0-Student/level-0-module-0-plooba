@@ -9,7 +9,10 @@ public class RobotSquare {
 Robot r = new Robot();
 r.penDown();
 r.setSpeed(10);
-r.move(400);
+for(int i = 0; i>4; i++) {
+r.move(100);
+r.turn(90);
+    }
 
         // 3. Put the robot's pen down
 
@@ -18,9 +21,6 @@ r.move(400);
 
 
         // 5. Do everything below here 4 times
-
-
-        //         2. Move your robot 200 pixels
 
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
